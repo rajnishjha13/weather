@@ -1,4 +1,4 @@
-const API_KEY = process.env.API_KEY;
+const API_KEY = '319d0a6ace6884c10c91ec9e82551118';
 
 function fetchWeatherByCity(city) {
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`)
